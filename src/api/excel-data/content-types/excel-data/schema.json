@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "excel_datas",
+  "info": {
+    "singularName": "excel-data",
+    "pluralName": "excel-datas",
+    "displayName": "ExcelData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}
